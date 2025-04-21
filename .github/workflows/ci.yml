@@ -40,3 +40,8 @@ jobs:
       - name: Run tests
         run: |
           pytest
+
+      - name: List Available Python Versions
+        run: python --version && ls /opt/hostedtoolcache/Python
+        
+
