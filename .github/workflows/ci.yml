@@ -1,5 +1,6 @@
-name: Python CI
+# Trigger workflow update test
 
+name: Python CI
 on:
   push:
     branches: [main]
